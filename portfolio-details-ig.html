@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Nur Tri Ramadhanti Adiningrum</title>
-  <meta name="Website Portfolio Nur Tri Ramadhanti Adiningrum" content="">
+  <title>Portfolio Details - Instagram </title>
+  <meta name="description" content="">
   <meta name="keywords" content="">
 
   <!-- Favicons -->
@@ -34,9 +34,11 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+
 </head>
 
-<body class="index-page">
+<body class="portfolio-details-page">
 
   <header id="header" class="header d-flex align-items-center light-background sticky-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
@@ -49,11 +51,11 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="index.html" >Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="resume.html">Resume</a></li>
           <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
           <li class="dropdown"><a href="#"><span>Other Results</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="certif.html">Licences and Certifications</a></li>
@@ -87,24 +89,95 @@
 
   <main class="main">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section">
 
-      <img src="assets/img/Frame 34.png" alt="" data-aos="fade-in">
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
 
-      <div class="container text-center" data-aos="zoom-out" data-aos-delay="100">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <h2>Nur Tri Ramadhanti Adiningrum</h2>
-            <p>Information Technology graduate with expertise in Python, Data Science, 
-              understanding the world of digital creators, 
-              writing documents, and teaching technology.</p>
-            <a href="portfolio.html" class="btn-get-started">See Portfolios</a>
-          </div>
+      <!-- Section Title -->
+      <div class="container section-title" style="position: relative; text-align: center; padding: 20px;" data-aos="fade-up">
+        <div class="icon" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); margin-left: 20px;">
+          <a href="portfolio.html" style="display: block; text-decoration: none; padding: 10px; color: rgb(84, 75, 75);">
+            <i class="bi bi-arrow-left"></i> Back
+          </a>
         </div>
+        <h2 style="margin: 0;">Portfolio Details</h2>
+        <p style="margin-top: 10px;">Instagram <p><a href="https://www.instagram.com/nurtriraa/"> Visit the link <i class="bi bi-arrow-up-right-square"></i></a> </p></p>
       </div>
 
-    </section><!-- /Hero Section -->
+      <!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
+
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/ig.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/ig-5.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/ig-3.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/ig-4.png" alt="">
+                </div>
+                
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Social Media information</h3>
+              
+              <ul>
+                <li><strong>User</strong>: nurtriraa</li>
+                <li><strong>Followers</strong>: 1.673</li>
+                <li><strong>Views</strong>: 5.404/month</li>
+                <li><strong>Link</strong>: <a href="https://www.instagram.com/nurtriraa/"> https://www.instagram.com/nurtriraa/ </a> </li>
+                <li><strong>Expertise</strong>: · Marketing · Writer · Design · Videographer · Video Editor · Content Creator · Photograph </li>
+              </ul>
+            </div>
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2>Instagram @nurtriraa</h2>
+              <p>
+                Create video content, do product promotion, place to update activities.
+                Using video editing skills and product link promotion and promotion upload.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
 
   </main>
 
